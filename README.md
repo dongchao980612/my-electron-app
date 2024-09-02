@@ -19,9 +19,10 @@ npm start
 ```bash
 npm install --save-dev @electron-forge/cli
 npx electron-forge import 
+
+npm run make
 ```
 
 ## 4. 打包后文件
 
-- `dist` 目录下为打包后的文件
-- `dist_electron` 目录下为打包后的文件，但使用的是 electron-builder 打包的，打包后的文件体积更小，但打包时间更长
+- `out` 目录下为打包后的文件
