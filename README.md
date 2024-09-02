@@ -17,7 +17,8 @@ npm start
 ## 3. 打包
 
 ```bash
-npm run build
+npm install --save-dev @electron-forge/cli
+npx electron-forge import 
 ```
 
 ## 4. 打包后文件
